@@ -8,13 +8,14 @@
     <center style="margin-top:50px;">
       <button id="btn-login">Open Login Lock</button>
     </center>
-    <script src="/config.js"></script>
+    <script src="https://credo-login.github.io/Auth0-Demo/config.js"></script>
     <script src="https://cdn.auth0.com/js/lock/11.4/lock.min.js"></script>
     <script>
       // Initializing our Auth0Lock
       var lock = new Auth0Lock(AUTH0_CLIENT_ID, AUTH0_DOMAIN, {
         auth: {
-          redirectUrl: "http://localhost:3000/callbackLock.html",
+          redirectUrl:
+            "https://credo-login.github.io/Auth0-Demo/callbackLock.html",
           responseType: "token"
         }
       });
