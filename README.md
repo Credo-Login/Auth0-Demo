@@ -7,7 +7,7 @@
 
 ##### Live Demo
 
-Click Here
+[Click Here](https://credo-login.github.io/Auth0-Demo/)
 
 ---
 
