@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+a {
+  display: block;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #dfdfdf;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
+
+a:hover {
+  background-color: #cfcfcf;
+  transition: 0.5s ease;
+}
